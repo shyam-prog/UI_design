@@ -1,0 +1,188 @@
+/* title bar..........................................*/
+
+#title {
+  background-color: #ff4c68;
+}
+.icon {
+  margin-right: 6px;
+}
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+.title-img {
+  margin-bottom: 70px;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  position: relative;
+}
+@media (max-width: 992px){
+  .title-image {
+    position: static;
+
+
+  }
+  #title {
+    text-align: center;
+  }
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.row-fea {
+  text-align: center;
+}
+
+
+
+
+
+
+
+/*body and elements styling*/
+body {
+  font-family: sans-serif;
+}
+h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #fff;
+  line-height: 2;
+}
+h2 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #fff;
+  line-height: 2;
+  font-size: 42px;
+}
+h3 {
+  font-weight: bolder;
+}
+
+
+
+/*nav bar title ......................... */
+.navbar {
+  padding: 0 0 2.5rem;
+}
+.nav-item {
+  padding: 0px 18px;
+}
+
+
+/*features..............................................*/
+#features {
+  padding: 10% 15% 10%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.i-pad {
+  margin: 20px;
+  color: #ef8172;
+
+}
+.i-pad:hover {
+  color: #ff4c68;
+}
+.fasize {
+  font-size: 1.5rem;
+}
+
+
+
+
+
+/*testimonials.......................................................*/
+#testimonials {
+
+  text-align: center;
+  background-color: #ff4c68;
+}
+.stuckimg {
+  height: 120px;
+  width: 120px;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 10% 15% 10%;
+}
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.icimg {
+  height: 190px;
+  width: 190px;
+  margin: 10px 90px 60px;
+  border-radius: 100%;
+}
+
+
+
+
+
+
+/*pricing section.......................................*/
+
+#pricing {
+  text-align: center;
+  padding: 100px;
+
+}
+.pricing-coloumn {
+  text-align: center;
+  padding: 3% 2%;
+}
+.pricing-h1 {
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #000;
+
+}
+
+/*callto action /..................*/
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+
+  color: #fff;
+}
+.cta-line {
+padding: 100px 100px 30px 100px;
+font-size: 40px;
+}
+
+/*footer section ................................................*/
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+}
+.foot-icon {
+  margin: 150px 20px 30px 20px;
+
+}
+.foot-icon:hover {
+  color: #ff4c68;
+}
+.copy {
+  font-size: 1rem;
+  color: grey;
+  font-family: sans-serif;
+
+}
+.copy:hover {
+  font-size: 1rem;
+  color: #ff4c68;
+  font-family: sans-serif;
+
+}
